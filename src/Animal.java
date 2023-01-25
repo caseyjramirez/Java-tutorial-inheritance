@@ -1,5 +1,6 @@
 public class Animal {
-    private String type, size;
+    private String size;
+    protected String type;
     private double weight;
 
     public Animal(String type, String size, double weight) {
